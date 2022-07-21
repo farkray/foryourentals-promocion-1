@@ -56,8 +56,15 @@ h1{
     background-color: var(--amarillo);
 }
 
-h2 {
-    font-size: 50px;
+/*Solo mobile*/
+@media (max-width: 600px){
+    h2 {
+        font-size: 30px;
+    }
+
+    .btn-1{
+        margin-top: 90px;
+    }
 }
 
 .fondo-fix{
@@ -70,12 +77,16 @@ h2 {
     margin-top: -500px;
 }
 
-/*Solo mobile*/
+/*Solo Desktop*/
 @media (min-width: 600px) {
     
     .ml-special {
         margin-left: 200px;
     }
+
+    h2 {
+        font-size: 50px;
+    }    
 
   }
 
@@ -211,3 +222,6 @@ h2 {
     margin-top: 15px;
   }
   
+  .bg-footer {
+    background-color: var(--azul);
+  }
