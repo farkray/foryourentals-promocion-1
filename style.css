@@ -226,11 +226,20 @@ h1{
     background-color: var(--azul);
   }
 
+
+  .modal-content{
+    background-color: var(--azul);
+    color: white;
+  }
+
+/*Solo Desktop*/
+@media (min-width: 600px) {
   .modal-content{
     background-color: var(--azul);
     width: 700px;
     color: white;
   }
+}
 
   .arbol{
     margin-top: -90px;
